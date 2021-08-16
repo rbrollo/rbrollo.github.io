@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: idroid;
+  src: url(idroid.otf);
+}
+
+* {
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgb(59, 213, 128), #1A5C38);
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 25px;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p#titulo {
+  font-size: 1.7em;
+  font-weight: bolder;
+}
+
+p#subtitulo {
+  width: 50vw;
+  margin: auto;
+  padding: 15px;
+}
+
+nav {
+  padding: 10px;
+}
+
+nav#menu {
+  text-align: initial;
+  padding: 15px;
+  font-weight: bold;
+}
+
+nav#menu>a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav#menu>a:hover {
+  background-color: rgb(59, 213, 128);
+  color: white;
+  border-radius: 5px;
+  transition-duration: .5s;
+}
+
+
+body {
+  background-color: #84E1AD;
+}
+
+main {
+  background-color: white;
+  width: 75vw;
+  margin: auto;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  margin-top: 180px;
+}
+
+h1 {
+  font-family: idroid;
+  color: #497E60;
+  padding-left: 15px;
+}
+
+.texto {
+  text-align: justify;
+  text-indent: 25px;
+  padding: 7px;
+  line-height: 2em;
+}
+
+span {
+  color: #497E60;
+  font-weight: 1000;
+}
+
+h2 {
+  padding-left: 15px;
+  font-family: idroid;
+  color: #497E60;
+  background-image: linear-gradient(to right, #84E1AD, white);
+}
+
+.imagem {
+  text-align: center;
+}
+
+div#video {
+  background-color: #104628;
+  text-align: center;
+  padding: 7px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+p#aprender {
+  margin-top: 20px;
+  background-color: #2FA866;
+  color: white;
+  font-weight: bold;
+  padding: 13px;
+  border-radius: 9px;
+}
+
+div#lista {
+  background-color: #C5EBD6;
+  margin: 0;
+  border-radius: 0px 0px 9px 9px;
+}
+
+ul {
+  columns: 2;
+  list-style-image: url(imagens/check.png);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  background-color: #C5EBD6;
+  transition-duration: .5s;
+}
+
+.link::after {
+  content: url(imagens/link.png);
+  padding-left: 5px;
+}
+
+footer {
+  background-color: #104628;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  padding: 7px;
+}
+
+
+@media (max-width: 450px) {
+  html {
+    font-size: 13px;
+  }
+  article {
+    margin-top: 250px;
+  }
+
+}

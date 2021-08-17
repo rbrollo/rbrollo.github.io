@@ -91,7 +91,7 @@ article {
 
 
 .imagens img:hover {
-  box-shadow: 2px 2px 15px  rgba(0, 0, 0, 0.589);
+box-shadow: 2px 2px 50px  rgb(255, 216, 196);
 }
 
 

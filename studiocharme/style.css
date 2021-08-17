@@ -7,14 +7,14 @@
   border: 0;
 }
 
-html{
-  width: 100  vw;
+html {
+  width: 100 vw;
 }
 
 body {
   background-image: linear-gradient(to top, rgba(255, 216, 196, 0.883), #f6ecec);
   width: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   margin: auto;
 }
 
@@ -26,7 +26,7 @@ header {
   padding: 10px;
 }
 
-#logo{
+#logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,7 @@ header {
 
 #menu {
   margin-top: 25px;
-  
+
 }
 
 a:visited {
@@ -68,9 +68,9 @@ article {
   margin-left: auto;
   width: 90%;
   display: flex;
-  text-align: justify;
+  text-align: left;
   align-items: center;
-  
+
 }
 
 .banner-content {
@@ -91,7 +91,7 @@ article {
 
 
 .imagens img:hover {
-box-shadow: 2px 2px 50px  rgb(255, 216, 196);
+  box-shadow: 2px 2px 50px rgb(255, 216, 196);
 }
 
 
@@ -142,7 +142,7 @@ footer>h2 {
 
 .icone:hover {
   text-decoration: underline;
- 
+
 }
 
 

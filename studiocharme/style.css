@@ -8,11 +8,6 @@
 
 }
 
-a:visited {
-  color: black;
-}
-
-
 body {
   background-image: linear-gradient(to top, rgba(255, 216, 196, 0.883), #f6ecec);
   width: 98%;
@@ -24,17 +19,26 @@ body {
 
 header {
   padding: 10px;
+  width: 100vw;
+
 }
 
 #topo {
   text-align: center;
   width: 100%;
   padding: 10px;
+
 }
 
 #menu {
   margin-top: 25px;
+  
 }
+
+a:visited {
+  color: black;
+}
+
 
 #menu>a {
   text-decoration: none;
@@ -51,6 +55,7 @@ header {
 }
 
 article {
+
   margin-top: 25px;
   margin-left: auto;
   width: 90%;
@@ -73,6 +78,11 @@ article {
   margin: auto;
   border-radius: 10pt;
 
+}
+
+
+.imagens > img:hover{
+  background-color: black;
 }
 
 ul {
@@ -146,9 +156,7 @@ footer>h2 {
     padding-left: 7px;
     padding-right: 7px;
     color: black;
-
   }
-
 
   ul {
     columns: 1;
@@ -163,8 +171,6 @@ footer>h2 {
     margin-bottom: 30px;
   }
 
-
-
   footer {
     display: flex;
     text-align: center;
@@ -173,8 +179,6 @@ footer>h2 {
     margin-top: 15px;
     padding: 15px 0 15px 0;
     border-radius: 10pt;
-
-
   }
 
   footer>ul {

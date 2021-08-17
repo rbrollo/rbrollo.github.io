@@ -134,6 +134,10 @@ iframe {
     font-size: 0.7rem;
   }
 
+  body{
+    width: 99.4%;
+  }
+
   ul {
     columns: 1;
     list-style: none;
@@ -190,6 +194,10 @@ iframe {
     font-size: 0.5rem;
   }
 
+body{
+  width: 99.4%;
+}
+
   ul {
     columns: 1;
     list-style: none;
@@ -223,6 +231,7 @@ iframe {
   footer>ul {
     margin-right:0;
     columns: 2;
+    width: 95%;
   }
 
 }

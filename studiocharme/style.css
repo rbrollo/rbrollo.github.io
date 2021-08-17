@@ -82,9 +82,10 @@ ul {
 }
 
 li {
-  margin-right: 30px;
+  margin: auto;
   margin-bottom: 30px;
   transition: 1s;
+  padding: 5px;
 
 }
 
@@ -106,6 +107,7 @@ footer>img {
 
 iframe {
   margin-left: 25px;
+  height: auto;
 }
 
 .icone {
@@ -115,7 +117,7 @@ iframe {
   align-items: center;
   font-size: 1.4rem;
   margin-left: 25px;
-  width: 39%;
+  width: 100%;
 }
 
 .icone:hover {
@@ -136,6 +138,14 @@ iframe {
     columns: 1;
     list-style: none;
     margin: auto;
+    margin-top: 30px;
+  }
+
+
+  li {
+    margin: auto;
+    margin-bottom: 30px;
+
   }
 
 
@@ -152,7 +162,7 @@ iframe {
 
   iframe {
     width: 60%;
-    height: 40%;
+    height: 50%;
   }
 
   footer>ul {
@@ -163,7 +173,7 @@ iframe {
 
 
 
-@media (max-width: 550px) {
+@media (max-width: 590px) {
   html {
     font-size: 0.5rem;
   }
@@ -172,6 +182,7 @@ iframe {
     columns: 1;
     list-style: none;
     margin: auto;
+    margin-top: 30px;
   }
 
   #menu>a {

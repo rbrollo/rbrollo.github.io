@@ -212,8 +212,6 @@ iframe {
     height: 30%;
   }
 
-
-
   footer {
     margin-right: 0;
     background-color: white;
@@ -223,6 +221,7 @@ iframe {
   }
 
   footer>ul {
+    margin-right: 5px;
     columns: 2;
   }
 

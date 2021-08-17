@@ -170,7 +170,13 @@ iframe {
     width: 60%;
     height: 50%;
   }
-
+  footer {
+    margin-right: 0;
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px 0 15px 0;
+    width: 100.5%
+  }
   footer>ul {
     columns: 2;
   }

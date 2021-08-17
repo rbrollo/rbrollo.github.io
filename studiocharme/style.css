@@ -94,6 +94,9 @@ article {
   box-shadow: 2px 2px 50px rgb(255, 216, 196);
 }
 
+.imagens img {
+  border-radius: 10pt;
+}
 
 ul {
   columns: 2;
